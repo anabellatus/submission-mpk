@@ -30,7 +30,7 @@ package com.dicoding.exam.latihan3
  *
  */
 fun <T> checkType(args: T): String {
-    return ""
+    return "$args"
 }
 
 fun main() {

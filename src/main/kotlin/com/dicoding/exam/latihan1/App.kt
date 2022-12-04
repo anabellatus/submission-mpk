@@ -17,8 +17,8 @@ package com.dicoding.exam.latihan1
  *  Sesuaikan fungsi di bawah ini dengan kode untuk mengecek apakah parameter number
  *  merupakan angka genap
  */
-fun isEvenNumber(number: Int): Boolean {
-    return number % 2 == 0
+fun isEvenNumber(number: Int) : Boolean {
+    return number %2 ==0
 }
 
 /**
@@ -26,7 +26,7 @@ fun isEvenNumber(number: Int): Boolean {
  *  Sesuaikan fungsi di bawah ini dengan kode untuk mengecek apakah parameter number
  *  lebih dari 5
  */
-fun moreThanFive(number: Int): Boolean = number > 5
+fun moreThanFive(number: Int) : Boolean = number > 5
 
 /**
  *  TODO 3
@@ -35,7 +35,7 @@ fun moreThanFive(number: Int): Boolean = number > 5
  *
  *      param * ( param + 10 )
  */
-fun result(number: Int) = number * (number + 10)
+fun result(number: Int) = number * (number +10)
 
 fun main() {
     val listNumber = 1.rangeTo(100)

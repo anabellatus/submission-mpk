@@ -27,7 +27,7 @@ import kotlin.system.measureTimeMillis
 class ExamTest : Spek({
     group("Pengujian otomatis latihan") {
         describe("Pengecekkan Latihan 1") {
-            it("Latihan 1") {
+            it("Latihan 1") {2
                 isEvenNumber(2).returnTrue(errMessage = "Jika argumennya adalah 2, fungsi isEvenNumber() seharusnya mengembalikkan nilai true")
             }
 
